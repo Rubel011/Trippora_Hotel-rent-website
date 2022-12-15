@@ -36,7 +36,10 @@
         display: flex;
         align-items: center;
       }
-     
+      a{
+        text-decoration: none;
+      }
+
       /* mid part sty;ing------------------------------ */
     </style>
   </head>
@@ -47,14 +50,14 @@
       <div id="signin">
         <li>
           <i class="fas fa-user" class="search-icon"></i>
-          <a class="drop" href="#">
+          <a class="drop" href="signin.html" target="_blank">
             Account
             <i class="fa-solid fa-caret-down"></i>
           </a>
           <div id="dropdown">
             <ul>
-              <li><a href="#">Sign in</a></li>
-              <li><a href="#">Sign up</a></li>
+              <li><a href="/signin.html">Sign in</a></li>
+              <li><a href="/signup.html">Sign up</a></li>
             </ul>
           </div>
         </li>
@@ -93,6 +96,45 @@
             <button class="input btn">Search</button>
           </div>
         </div>
+      </div>
+      <div class="top">Top Destinations</div>
+      <div id="topdestination">
+        <a href="#">
+          <div class="img">
+            <h2>Goa</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="img">
+            <h2> Kerala</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="img">
+            <h2> Bali</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="img">
+            <h2> Paris</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="img">
+            <h2>Rome</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
+        <a href="#">
+          <div class="img">
+            <h2>Himachal Pradesh</h2>
+            <p>Vacation Rentals</p>
+          </div>
+        </a>
       </div>
       <div class="community-section">
         <div class="icon-first">
@@ -155,7 +197,89 @@
           </div>
         </div>
       </div>
+      <div id="twodiv">
+        <div id="investment">
+          <div>Holiday Home Investment Opportunities</div>
+          <div class="small-divs">
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/growth.svg"
+                alt=""
+              />
+              <p>Low Cost Hign Appreciation</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/maids.svg"
+                alt=""
+              />
+              <p>Professionally Managed</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/give-money.svg"
+                alt=""
+              />
+              <p>Guaranteed To Produce Income</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/plan.svg"
+                alt=""
+              />
+              <p>We Designed Floor Plans Income</p>
+            </div>
+          </div>
+          <button>EXPLORE INVESTMENT OPPORTUNITIES</button>
+        </div>
+        <div id="manager">
+          <div>Are You A Holiday Home Owner/Manager</div>
+          <div class="small-divs">
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/network.svg"
+                alt=""
+              />
+              <p>Get Bookings From 100+ Websites</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/layout.svg"
+                alt=""
+              />
+              <p>One Dashboard - Total Control</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/flash.svg"
+                alt=""
+              />
+              <p>Instant Book Or Request To Book</p>
+            </div>
+            <div>
+              <img
+                src="https://d2vcelvjdj7n25.cloudfront.net/newhome/icons/smartphone-call.svg"
+                alt=""
+              />
+              <p>Both iOS & Android App Available.</p>
+            </div>
+          </div>
+          <button>LIST YOUR PROPERTY</button>
+        </div>
+      </div>
     </main>
+    <footer>
+      <div id="con-text">Holiday Homes Across The Globe</div>
+      <div class="continants">
+        <p id="asia">ASIA</p>
+        <p id="europe">EUROPE</p>
+        <p id="northA">NORTH AMERICA</p>
+        <p id="southA">SOUTH AMERICA</p>
+        <p id="africa">AFRICA</p>
+      </div>
+      <hr />
+      <div id="cities"></div>
+    </footer>
   </body>
   <script src="Scripts/index.js"></script>
 </html>
