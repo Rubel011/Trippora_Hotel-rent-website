@@ -19,7 +19,7 @@
   display: none;
 }
 
-/* #signin>li >a:hover */
+#signin li a:hover
  #dropdown{
   display: block;
   position: absolute;
@@ -52,6 +52,7 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .banner-mid{
@@ -72,7 +73,7 @@ li{
 
 }
 .btn{
-  background-color: #303F9F;
+  background-color: #1E88E5;
 }
 
 .input:hover,#location:hover{
@@ -89,8 +90,35 @@ li{
  border: 1px solid white;
   
 }
+/* top destination part-------------------------------- */
+#topdestination{
+display: grid;
+grid-template-columns: repeat(6,1fr);
+margin-left: 35px;
+margin-bottom: 35px;
 
+}
+.top{
+  margin: 30px;
+  margin-top: 60px;
+  font-size: 25px;
+  padding-left: 6px;
+}
+.img{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16724/photo_200/3cfe907bf1a711e9924e0a8e1b1ce4da_photo_200.jpeg);
+height: 130px;
+width: 170px;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
 
+/* community part------------------------------------ */
 .community-back {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16724/photo_200/3cfe907bf1a711e9924e0a8e1b1ce4da_photo_200.jpeg);
@@ -197,4 +225,87 @@ li{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 29px;
+}
+ /* TWO div side by side part ----------------------- */
+ #twodiv{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 35px;
+  padding: 35px;
+  text-align: center;
+ }
+ #twodiv>div{
+  padding: 30px;
+  /* border: 1px solid red; */
+  border-radius: 9px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+ #twodiv>div>div:nth-child(2){
+  display: flex;
+ }
+ #twodiv img{
+  /* height: 30px; */
+  width: 42px;
+ }
+ #investment>div:first-child,#manager>div:first-child{
+  font-size:25px;
+  margin-bottom: 40px;
+ }
+ .small-divs>div>p{
+  padding: 9px;
+
+ }
+ #twodiv button{
+  padding: 12px;
+  font-size: 15px;
+  border: 1px solid white;
+  background-color: #1E88E5;
+  border-radius: 9px;
+  margin: 19px;
+ }
+/* footer part styling------------------------ */
+footer{
+  margin: 27px;
+  padding: 8px;
+}
+#con-text{
+  font-size: 25px;
+}
+.continants{
+  display: flex;
+}
+.continants>p{
+  margin: 15px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.continants>p:hover{
+  border-color: #1E88E5;
+  background-color: #B3E5FC;
+}
+.continants>p:first-child{
+  margin-left: 0px;
+  /* padding-left: 0px; */
+}
+#cities{
+  /* background-color: #1E88E5; */
+  margin-top: 35px;
+  /* height: 20px; */
+   display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 18px;
+}
+.name+div{
+ font-size: small;
+ display: flex;
+ margin-top: 3px;
+
+
+}
+.name+div>p{
+  padding: 4px;
+  padding-left: 0px;
+ 
+  color: gray;
 }
