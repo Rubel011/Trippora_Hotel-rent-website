@@ -1,0 +1,146 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+nav {
+  font-size: large;
+  background-color: #212121;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  padding-left: 28px;
+}
+
+nav img {
+  height: 100%;
+}
+
+#signin {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+.search-icon {
+  margin: 9px;
+  padding-left: 6px;
+}
+i {
+  margin: 7px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+/* #dropdown {
+  display: none;
+} */
+#signin a:hover {
+  color: #303f9f;
+}
+
+/* input part styling----------------- */
+.container {
+  width: 90%;
+  height: 270px;
+  border: 1px solid white;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.container > h2 {
+  text-align: center;
+  padding: 25px;
+  margin-top: 45px;
+  font-weight: 150;
+}
+.container > p {
+  font-size: larger;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.banner-mid {
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+
+  padding: 3px;
+  width: 60%;
+  margin: auto;
+}
+.input {
+  padding: 9px;
+  font-size: 24px;
+  width: 87px;
+  border-radius: 8px;
+  border: 1px solid white;
+  background-color: #fce4ec;
+}
+.btn {
+  background-color: #1e88e5;
+  margin-left: 3px;
+}
+
+.input:hover,
+#location:hover {
+  border: 1px solid #303f9f;
+}
+#location {
+  padding: 9px;
+  font-size: 24px;
+  width: 130px;
+  border-radius: 8px;
+  background-color: #fce4ec;
+
+  border: 1px solid white;
+}
+
+/* CIties and types part--------------- */
+#con-text {
+  margin: 27px;
+  padding: 8px;
+}
+.continants {
+  display: flex;
+}
+.continants > p {
+  margin: 15px;
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 5px;
+}
+.continants > p:hover {
+  border-color: #1e88e5;
+  background-color: #b3e5fc;
+}
+.continants > p:first-child {
+  margin-left: 0px;
+  /* padding-left: 0px; */
+}
+#cities {
+  /* background-color: #1E88E5; */
+  margin-top: 35px;
+  /* height: 20px; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+.name + div {
+  font-size: small;
+  display: flex;
+  margin-top: 3px;
+}
+.name + div > p {
+  padding: 4px;
+  padding-left: 0px;
+
+  color: gray;
+}
