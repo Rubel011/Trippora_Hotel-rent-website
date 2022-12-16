@@ -1,40 +1,36 @@
 /* drop down part-------------------------- */
-#signin a{
+#signin a {
   text-decoration: none;
   color: white;
   height: 100%;
-
 }
-.search-icon{
+.search-icon {
   margin: 9px;
 }
- #signin a {
-        margin: 18px;
-        margin-right: 29px; ;
-      }
-#signin a:hover{
-  color: #303F9F;
+#signin a {
+  margin: 18px;
+  margin-right: 29px;
 }
-#dropdown{
+#signin a:hover {
+  color: #303f9f;
+}
+#dropdown {
   display: none;
 }
 
-#signin li a:hover
- #dropdown{
+#signin li a:hover #dropdown {
   display: block;
   position: absolute;
   background-color: #212121;
   margin-top: 7px;
   height: 70px;
   padding: 25px;
-
-
 }
 
-li{
+li {
   list-style-type: none;
 }
- #dropdown ul li{
+#dropdown ul li {
   padding: 4px;
 }
 /* Banner part--------------------------- */
@@ -55,67 +51,86 @@ li{
   margin-bottom: 30px;
 }
 
-.banner-mid{
+
+.banner-mid {
   background-color: white;
   margin-top: 29px;
-  padding: 8px;
+  padding: 4px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: black;
   display: flex;
 }
-.input{
+.input {
   padding: 9px;
   font-size: 24px;
   width: 160px;
   border-radius: 8px;
- border: 1px solid white;
-
+  border: 1px solid white;
 }
-.btn{
-  background-color: #1E88E5;
+.btn {
+  background-color: #1e88e5;
 }
 
-.input:hover,#location:hover{
-  border: 1px solid #303F9F;
-
+.input:hover,
+#location:hover {
+  border: 1px solid #303f9f;
 }
-#location{
+#location {
   padding: 9px;
   font-size: 24px;
   width: 130px;
   border-radius: 8px;
-  
- 
- border: 1px solid white;
-  
+
+  border: 1px solid white;
 }
 /* top destination part-------------------------------- */
-#topdestination{
-display: grid;
-grid-template-columns: repeat(6,1fr);
-margin-left: 35px;
-margin-bottom: 35px;
-
+#topdestination {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-left: 35px;
+  margin-bottom: 35px;
 }
-.top{
+.top {
   margin: 30px;
   margin-top: 60px;
   font-size: 25px;
   padding-left: 6px;
 }
-.img{
+.img {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16724/photo_200/3cfe907bf1a711e9924e0a8e1b1ce4da_photo_200.jpeg);
-height: 130px;
-width: 170px;
-background-repeat: no-repeat;
-background-size: cover;
-color: white;
-display: flex;
-flex-direction: column;
-justify-content: center;
-text-align: center;
+    url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/goa-11.f1c86735cec4.jpg");
+  height: 130px;
+  width: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("	https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/goa-11.f1c86735cec4.jpg");
+}
+.img3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/bali-65.80d1a68b977e.jpg");
+}
+.img4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/paris-12904.935a27918023.jpg");
+}
+.img5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/rome-12009.602b199321a4.jpg");
+}
+.img6 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url("https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/home-small/himachal-pradesh-14.4910c5bade68.jpg");
 }
 
 /* community part------------------------------------ */
@@ -131,71 +146,27 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  border-radius: 5px;
 }
 .community-back2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16720/photo_200/3a17e0ebf71b11e992500a8e1b1ce4da_photo_200.jpeg);
-  height: 130px;
-  width: 190px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 .community-back3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16722/photo_200/d9d86936f1a311e9924e0a8e1b1ce4da_photo_200.jpeg);
-  height: 130px;
-  width: 190px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 .community-back4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16723/photo_200/14650812f1a811e9924e0a8e1b1ce4da_photo_200.jpeg);
-  height: 130px;
-  width: 190px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 .community-back5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16721/photo_200/a85131caf1a511e9924e0a8e1b1ce4da_photo_200.jpeg);
-  height: 130px;
-  width: 190px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 .community-back6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
     url(https://d2vcelvjdj7n25.cloudfront.net/media/gated_community/16727/photo_200/92a02d4af1a511e9924e0a8e1b1ce4da_photo_200.jpeg);
-  height: 130px;
-  width: 190px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
 }
 .icon-first {
   width: 40%;
@@ -226,86 +197,114 @@ text-align: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 29px;
 }
- /* TWO div side by side part ----------------------- */
- #twodiv{
+/* TWO div side by side part ----------------------- */
+#twodiv {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 35px;
   padding: 35px;
   text-align: center;
- }
- #twodiv>div{
+}
+#twodiv > div {
   padding: 30px;
   /* border: 1px solid red; */
   border-radius: 9px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
- }
- #twodiv>div>div:nth-child(2){
+}
+#twodiv > div > div:nth-child(2) {
   display: flex;
- }
- #twodiv img{
+}
+#twodiv img {
   /* height: 30px; */
   width: 42px;
- }
- #investment>div:first-child,#manager>div:first-child{
-  font-size:25px;
+}
+#investment > div:first-child,
+#manager > div:first-child {
+  font-size: 25px;
   margin-bottom: 40px;
- }
- .small-divs>div>p{
+}
+.small-divs > div > p {
   padding: 9px;
-
- }
- #twodiv button{
+}
+#twodiv button {
   padding: 12px;
   font-size: 15px;
   border: 1px solid white;
-  background-color: #1E88E5;
+  background-color: #1e88e5;
   border-radius: 9px;
   margin: 19px;
- }
+}
+/* Vacation Ideas part styling-------------------------- */
+.idea1{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/phuket.jpg');
+  
+
+}
+.idea2{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/vindhyas-homestay.jpg');
+}
+.idea3{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/lonavala.jpg');
+}
+.idea4{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/beautiful-Bali-Gazebo_1.jpg);
+}
+.idea5{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/sri_lanka.jpg);
+
+}
+.idea6{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/goaluxury_272x204.jpg');
+
+}
+
 /* footer part styling------------------------ */
-footer{
+footer {
   margin: 27px;
   padding: 8px;
 }
-#con-text{
+#con-text {
   font-size: 25px;
 }
-.continants{
+.continants {
   display: flex;
 }
-.continants>p{
+.continants > p {
   margin: 15px;
   border: 1px solid white;
   padding: 8px;
   border-radius: 5px;
 }
-.continants>p:hover{
-  border-color: #1E88E5;
-  background-color: #B3E5FC;
+.continants > p:hover {
+  border-color: #1e88e5;
+  background-color: #b3e5fc;
 }
-.continants>p:first-child{
+.continants > p:first-child {
   margin-left: 0px;
   /* padding-left: 0px; */
 }
-#cities{
+#cities {
   /* background-color: #1E88E5; */
   margin-top: 35px;
   /* height: 20px; */
-   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   gap: 18px;
 }
-.name+div{
- font-size: small;
- display: flex;
- margin-top: 3px;
-
-
+.name + div {
+  font-size: small;
+  display: flex;
+  margin-top: 3px;
 }
-.name+div>p{
+.name + div > p {
   padding: 4px;
   padding-left: 0px;
- 
+
   color: gray;
 }
