@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand&family=Roboto&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: manrope;
+}
+nav {
+  font-size: large;
+  background-color: #37474F;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  padding-left: 28px;
+}
+
+nav img {
+  height: 100%;
+}
+
+#signin {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+.search-icon {
+  margin: 9px;
+  padding-left: 6px;
+}
+i {
+  margin: 7px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#signin a:hover {
+  color: #29B6F6;
+}
+
+/* main part styling----------------- */
+
+main{
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+.detail-part{
+    display: flex;
+}
+.detail{
+    width: 70%;
+    /* border: 1px solid red; */
+}
+.detail-img{
+    width: 64.5%;
+    padding: 1px;
+    /* border: 1px solid red; */
+}
+.detail-img>img{
+    width: 100%;
+    margin: 0px;
+
+}
+.detail-small-img{
+    display: flex;
+    
+}
+.detail-small-img>img{
+    width: 49.5%;
+    padding: 1px;
+    margin: 0px;
+}
+.text{
+    padding: 30px;
+}

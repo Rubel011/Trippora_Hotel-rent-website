@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand&family=Roboto&display=swap");
 * {
   padding: 0px;
   margin: 0px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: manrope;
 }
 nav {
   font-size: large;
-  background-color: #212121;
+  background-color: #37474F;
   height: 60px;
   display: flex;
   align-items: center;
@@ -41,7 +42,7 @@ a {
   display: none;
 } */
 #signin a:hover {
-  color: #303f9f;
+  color: #29B6F6;
 }
 
 /* input part styling----------------- */
@@ -73,13 +74,16 @@ a {
   border-radius: 5px;
 
   padding: 3px;
-  width: 60%;
+  width: 63%;
   margin: auto;
+}
+#inputout{
+  width: 120px;
 }
 .input {
   padding: 9px;
   font-size: 24px;
-  width: 87px;
+  width: 97px;
   border-radius: 8px;
   border: 1px solid white;
   background-color: #fce4ec;
@@ -87,6 +91,7 @@ a {
 .btn {
   background-color: #1e88e5;
   margin-left: 3px;
+  width: 97px;
 }
 
 .input:hover,
@@ -96,7 +101,7 @@ a {
 #location {
   padding: 9px;
   font-size: 24px;
-  width: 130px;
+  width: 97px;
   border-radius: 8px;
   background-color: #fce4ec;
 
@@ -143,4 +148,66 @@ a {
   padding-left: 0px;
 
   color: gray;
+}
+/* Photos part card wise-------------------- */
+.mid {
+  width: 95%;
+  margin: auto;
+  color: black;
+}
+.mid > p {
+  padding: 7px;
+}
+.mid > h2 {
+  padding: 6px;
+  margin-bottom: 30px;
+  font-weight: lighter;
+}
+.first img {
+  height: 150px;
+  width: 100%;
+}
+.color {
+  color: black;
+}
+.photos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+}
+.text {
+  padding: 13px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.text > p:nth-child(1) {
+}
+.text > p:nth-child(2) {
+  padding: 5px 0px;
+}
+.text > p:nth-child(3) {
+}
+/* footer part------------------------- */
+
+footer {
+  width: 95%;
+  margin: auto;
+}
+footer > p {
+  padding: 9px 0px;
+  color: gray;
+  font-size: small;
+}
+footer > h2 {
+  font-weight: 500;
+  margin-top: 45px;
+}
+footer > h5 {
+  padding: 9px 0px;
+  font-weight: 599;
 }

@@ -7,6 +7,9 @@
 .search-icon {
   margin: 9px;
 }
+.size{
+  font-size: 22px;
+}
 #signin a {
   margin: 18px;
   margin-right: 29px;
@@ -21,7 +24,7 @@
 #signin li a:hover #dropdown {
   display: block;
   position: absolute;
-  background-color: #212121;
+  background-color: #37474F;
   margin-top: 7px;
   height: 70px;
   padding: 25px;
