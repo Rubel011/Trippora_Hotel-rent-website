@@ -7,7 +7,7 @@
 .search-icon {
   margin: 9px;
 }
-.size{
+.size {
   font-size: 22px;
 }
 #signin a {
@@ -15,7 +15,7 @@
   margin-right: 29px;
 }
 #signin a:hover {
-  color: #303f9f;
+  color: #29b6f6;
 }
 #dropdown {
   display: none;
@@ -24,7 +24,7 @@
 #signin li a:hover #dropdown {
   display: block;
   position: absolute;
-  background-color: #37474F;
+  background-color: #37474f;
   margin-top: 7px;
   height: 70px;
   padding: 25px;
@@ -54,11 +54,10 @@ li {
   margin-bottom: 30px;
 }
 
-
 .banner-mid {
   background-color: white;
   margin-top: 29px;
-  padding: 4px;
+  padding: 6px;
   border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: black;
@@ -67,7 +66,7 @@ li {
 .input {
   padding: 9px;
   font-size: 24px;
-  width: 160px;
+  width: 165px;
   border-radius: 8px;
   border: 1px solid white;
 }
@@ -238,33 +237,29 @@ li {
   margin: 19px;
 }
 /* Vacation Ideas part styling-------------------------- */
-.idea1{
+.idea1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/phuket.jpg');
-  
-
+    url("https://d2vcelvjdj7n25.cloudfront.net/media/collection/phuket.jpg");
 }
-.idea2{
+.idea2 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/vindhyas-homestay.jpg');
+    url("https://d2vcelvjdj7n25.cloudfront.net/media/collection/vindhyas-homestay.jpg");
 }
-.idea3{
+.idea3 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/lonavala.jpg');
+    url("https://d2vcelvjdj7n25.cloudfront.net/media/collection/lonavala.jpg");
 }
-.idea4{
+.idea4 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/beautiful-Bali-Gazebo_1.jpg);
+    url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/beautiful-Bali-Gazebo_1.jpg);
 }
-.idea5{
+.idea5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/sri_lanka.jpg);
-
+    url(https://d2vcelvjdj7n25.cloudfront.net/media/collection/sri_lanka.jpg);
 }
-.idea6{
+.idea6 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-  url('https://d2vcelvjdj7n25.cloudfront.net/media/collection/goaluxury_272x204.jpg');
-
+    url("https://d2vcelvjdj7n25.cloudfront.net/media/collection/goaluxury_272x204.jpg");
 }
 
 /* footer part styling------------------------ */
@@ -310,4 +305,65 @@ footer {
   padding-left: 0px;
 
   color: gray;
+}
+
+/* medium screen */
+@media all and (min-width: 680px) and (max-width: 800px) {
+  #banner {
+    font-size: x-large;
+  }
+  .banner-mid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  #topdestination {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 9px;
+  }
+  .community-section {
+    display: block;
+  }
+  .icon-first {
+    width: 100%;
+    margin: 40px 0px;
+  }
+  .community-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+  }
+  #twodiv {
+    display: block;
+  }
+}
+/* small screen */
+@media all and (min-width: 300px) and (max-width: 680px) {
+  #banner {
+    font-size: x-large;
+  }
+  .banner-mid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #topdestination {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9px;
+  }
+  .community-section {
+    display: block;
+  }
+  .icon-first {
+    width: 100%;
+    margin: 40px 0px;
+  }
+  .community-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  #twodiv {
+    display: block;
+  }
 }
