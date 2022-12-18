@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Quicksand&family=Roboto&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: manrope;
+}
+nav {
+  font-size: large;
+  background-color: #37474f;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 35px;
+  padding-left: 28px;
+}
+
+nav img {
+  height: 100%;
+}
+
+#signin {
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+li {
+  text-decoration: none;
+}
+.search-icon {
+  margin: 9px;
+  padding-left: 6px;
+}
+i {
+  margin: 7px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#signin a:hover {
+  color: #29b6f6;
+}
+
+/* main part styling----------------- */
+
+main {
+  display: flex;
+  width: 95%;
+  margin: auto;
+}
+.detail-part {
+  display: flex;
+  margin-top: 29px;
+}
+.detail {
+  width: 72%;
+  /* border: 1px solid red; */
+}
+.detail > p {
+  padding: 19px;
+  padding-left: 2px;
+}
+.detail-img {
+  width: 64.5%;
+  padding: 1px;
+  /* border: 1px solid red; */
+}
+.detail-img > img {
+  width: 100%;
+  margin: 0px;
+}
+.detail-small-img {
+  display: flex;
+}
+.detail-small-img > img {
+  width: 49.5%;
+  padding: 1px;
+  margin: 0px;
+}
+.text {
+  padding: 30px;
+}
+.text > div {
+  font-size: x-large;
+}
+.text > p {
+  padding: 6px 0px;
+}
+#room {
+  margin-top: 20px;
+  font-size: small;
+  /* display: flex; */
+}
+#room > p {
+  padding: 3px;
+  color: #29b6f6;
+  border: 1px solid #29b6f6;
+  margin: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+/* bill part styling-------------- */
+.bill {
+  padding: 40px;
+  /* position: sticky; */
+  /* width: 30%; */
+  height: 450px;
+  /* border: 1px solid red; */
+}
+.price {
+  display: flex;
+}
+.price > p:nth-child(1) {
+  font-size: xx-large;
+}
+.price > p:nth-child(2) {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 7px;
+  margin: 9px;
+}
+.book {
+  background-color: #e0f2f1;
+  color: green;
+  font-weight: bold;
+  font-size: large;
+  padding: 15px;
+}
+.bill input {
+  margin: 9px 0px;
+  padding: 4px;
+}
+.date {
+  display: flex;
+}
+.total {
+  margin: 15px 0px;
+}
+.bill > button {
+  padding: 9px;
+  color: white;
+  border-radius: 5px;
+  background-color: #29b6f6;
+  border: 1px solid #29b6f6;
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+
+/* map button styling part----------------- */
+.map > button {
+  margin: 15px 7px;
+  margin-top: 45px;
+  padding-right: 7px;
+}
+
+/* footer part of the page__________________ */
+
+.keyA {
+  font-size: large;
+  font-weight: 600;
+  margin: 30px;
+}
+.key {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin: 30px;
+  width: 62%;
+}
+.key > p {
+  border: 1px solid gray;
+  font-size: x-small;
+  padding: 5px;
+  text-align: center;
+  border-radius: 3px;
+}
+/* footer part-------------- */
+footer {
+  margin: 30px;
+  width: 60%;
+}
+footer > h5 {
+  padding: 13px 0px;
+}
+footer > p:nth-child(2) {
+  border: 1px solid gray;
+  width: 130px;
+  padding: 6px;
+  border-radius: 3px;
+}
+footer > h4 {
+  padding: 13px 0px;
+}
+footer > p {
+  padding: 13px 0px;
+}
+.last > div {
+  padding: 13px 0px;
+}

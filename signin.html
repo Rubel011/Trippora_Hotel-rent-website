@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log in Page</title>
+    <link rel="shortcut icon" href="/images/tr (1).png" type="image/x-icon" />
     <link rel="stylesheet" href="./style/signin.css" />
   </head>
   <body>
     <div class="container">
       <div class="nav">
-        <a href="./signin.html">Log in</a>
+        <a href="/signin.html">Log in</a>
         <a href="./signup.html">Register</a>
       </div>
       <div id="signin">
@@ -51,6 +52,9 @@
       });
       if (flag) {
         alert("Sign in Successful");
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 2000);
       } else {
         alert("Wrong Credentials");
       }
